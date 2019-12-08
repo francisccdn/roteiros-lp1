@@ -1,0 +1,12 @@
+Questão 01
+
+(a) Classes são "tipos" de "variáveis" criados pelo usuário, com atributos e metodos próprios.
+    Já um objeto é a instanciação de uma classe; São as "variáveis" do dado tipo (classe).
+
+(b) Construtores servem para inicializar objetos com certos valores definidos pelo usuário, podendo ou não receber parâmetros.
+    São utilizados ao se criar novos objetos no código.
+
+(c) Encapsulamento impede acesso a atributos que não se é desejavel que o usuario tenha acesso;
+    Facilita a manunteção posterior do código, e reduz a possibilidade de erro humano, já que cada parte do código está contida apenas em si mesma e não depende das outras;
+    Além disso, facilita código adicional posterior, já que partes mais complexas de seu código podem ficar escondidas e apenas chamadas por metódos mais simples de entender.
+    Por exemplo: Em uma aplicação bancaria, não é desejável deixar um usuario mudar diretamente o atributo "Saldo", apenas com a chamada de um metódo "Saque" ou "Deposito".
